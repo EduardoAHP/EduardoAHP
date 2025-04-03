@@ -1,0 +1,82 @@
+
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+user agent stylesheet
+
+nav {
+   display: block;
+   unicode-bidi: isolate;
+}
+
+nav div {
+   display: inline-block;
+   padding: 20px;
+   width: 24%;
+   color: rgb(220, 148, 235);
+   text-align: center;
+}
+
+aside {
+   background-color: rgb(169, 240, 240);
+   color: white;
+   float: left;
+   width: 20%;
+   height: 705px;
+   margin-top: 30px;
+}
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+user agent stylesheet
+
+aside {
+   display: block;
+   unicode-bidi: isolate;
+}
+
+fieldset{
+   background-color: rgb(123, 155, 245);
+   padding-right: 50px;
+}
+
+legend{
+   border-radius: 5px;
+}
+
+h1{
+   text-align: left;
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+
+}
+
+h2.curriculum{
+   text-align: right;
+   color: blue;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10;
+}
+
+
+h3{
+   text-align: left;
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+h4{
+   text-align: left;
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+h2.curriculum{
+   color: blue;
+}
+
