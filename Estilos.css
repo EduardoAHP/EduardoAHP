@@ -1,3 +1,8 @@
+html{
+   background:url(Fondo.png);
+}
+
+
 
 * {
    -webkit-box-sizing: border-box;
@@ -27,6 +32,9 @@ aside {
    margin-top: 30px;
 }
 
+img.Foto{
+   align-items: center;
+}
 
 * {
    -webkit-box-sizing: border-box;
@@ -47,6 +55,8 @@ h1.aside{
 fieldset{
    background-color: rgb(190, 190, 190);
    padding-right: 50px;
+   margin-right: 470px;
+   
 }
 
 legend{
@@ -73,6 +83,7 @@ h5.piedepagina{
    color: blue;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
+  
 }
 
 h3{
@@ -80,6 +91,7 @@ h3{
    color: rgb(0, 0, 0);
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
+   
 }
 
 h4{
@@ -99,7 +111,7 @@ h1.headercurriculum{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-shadow: 5px -5px rgb(221, 221, 221);
     letter-spacing: 10px;
-    text-decoration: underline;
+   
 
 }
 
@@ -108,7 +120,6 @@ h1.headerloyout{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px -5px rgb(221, 221, 221);
     letter-spacing: 10px;
-    text-decoration: underline;
 }
 
 h1.headerformulario{
@@ -116,7 +127,7 @@ h1.headerformulario{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px -5px rgb(221, 221, 221);
     letter-spacing: 10px;
-    text-decoration: underline;
+  
 }
 
 h1.headerprincipal{
@@ -124,7 +135,7 @@ h1.headerprincipal{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px -5px rgb(221, 221, 221);
     letter-spacing: 10px;
-    text-decoration: underline;
+
 
 }
 
@@ -133,7 +144,7 @@ img.cenar{
    margin-top: 0px;
    margin-left: 145px;
    margin-top: 0px;
-   border: 2px rgb(121, 235, 255) solid;
+   border: 2px rgb(0, 0, 0) solid;
    
 }
 
@@ -141,15 +152,7 @@ img.Game{
    width: 60%;
    margin-top: 0px;
    margin-left: 145px;
-   border: 2px rgb(121, 235, 255) solid;
-}
-
-img.whatsapp{
-   width: 20%;
-   margin-top: 0px;
-   margin-left: 400px;
-   border: 2px rgb(121, 235, 255) solid;
-   ;
+   border: 2px rgb(17, 17, 17) solid;
 }
 
 fieldset {
@@ -186,7 +189,6 @@ table.Idiomas{
 text-align: center;
 border-collapse: collapse;
 border-collapse: separate;
-text-indent: initial;
 border-spacing: 2px;
 
 }
@@ -211,4 +213,8 @@ div.menu a{
 
 h5.imagenes{
    text-align: center;
+}
+
+ul.contacto{
+   list-style: none;
 }

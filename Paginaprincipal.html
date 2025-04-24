@@ -4,9 +4,15 @@
     <meta charset="utf-8">
     <title>PaginaPrincipal</title>
     <link rel="stylesheet" href="Estilos.css">
+    <script>
+      function procesarFormulario(event) {
+          event.preventDefault(); // Evita el envío del formulario
+          alert('Formulario procesado');
+      }
+  </script>
   </head>
   <!--Aqui el contenido de la pagina principal-->
-  <body background="Fondo.png">
+  <body>
     <header> 
       <h1 class="headerprincipal">Pagina Principal</h1>        
       </header>
@@ -14,28 +20,33 @@
       <div class="menu"><a href="Paginaprincipal.html">Pagina Principal</a></div>
       <div class="menu"><a href="Curriculum.html">Curriculum</a></div>
       <div class="menu"><a href="Formulario.html">Formulario</a></div>
-      <div class="menu"><a href="Como hice la pagina.html">Como cree esta pagina</a></div>
+      <div class="menu"><a href="Comohicelapagina.html">Como cree esta pagina</a></div>
     </nav>
     <aside>
       <h1 class="aside">Informacion Personal</h1>
-      <img src="foto.jpg" class="Foto" align="center" width="200" height="200">
+      <img src="foto.jpg" alt="Foto personal" class="Foto" width="200" height="200">
       <br>
       <br>
         <ul class="aside"> 
           <li>
+            <p>
              Eduardo Alejandro Hernández Pinto  
+            </p>
           </li>
-          <br>
           <li>
-            Av. Pablo Iglesias 84 
+            <p>
+            Av. Pablo Iglesias 84
+            </p> 
           </li>
-          <br>
           <li>  
+            <p>
        Email: eduardoahp07@gmail.com
+            </p>
           </li>
-          <br>
           <li>  
+            <p>
       Telefono: 674 48 06 27
+            </p>
           </li> 
     </ul>  
     </aside> 
@@ -61,18 +72,16 @@
       <section>
         <article class="imagenes">
           <h5 class="imagenes">Salir a cenar</h5> 
-            <img class=cenar src="cenar.jpeg">
+            <img class=cenar src="cenar.jpeg" alt="Imagen de unas personas cenando">
         </article>
         <article class="imagenes">
           <h5 class="imagenes">Jugar videojuegos</h5>
-          <img class=Game src="Games.jpeg">
+          <img class=Game src="Games.jpeg" alt="Imagen de algunos de mis juegos favoritos">
         </article>
       </section>
   </main>
     <footer> 
-      <address>
         <h5 class="piedepagina">Pagina hecha por Eduardo A. Hernández Pinto</h5>
-      </address>
     </footer>
   </body>
 </html>
