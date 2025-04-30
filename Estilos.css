@@ -28,23 +28,19 @@ aside {
    color: white;
    float: left;
    width: 20%;
-   height: 705px;
+   height: 500px;
    margin-top: 30px;
+   display: block;
+   unicode-bidi: isolate;
 }
 
-img.Foto{
+img.foto{
    align-items: center;
 }
 
 * {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
-}
-
-aside {
-   display: block;
-   unicode-bidi: isolate;
-   
 }
 
 h1.aside{
@@ -72,18 +68,13 @@ h1{
 }
 
 h5.piedepagina{
-   text-align: right;
-   color: blue;
+   text-align: center;
+   color: -webkit-link;
+    cursor: pointer;
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
-}
+   font-size: 15px;
+   text-decoration: underline;
 
-h5.piedepagina{
-   text-align: right;
-   color: blue;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
-  
 }
 
 h3{
@@ -217,4 +208,11 @@ h5.imagenes{
 
 ul.contacto{
    list-style: none;
+}
+
+footer{
+background-color: rgb(124, 124, 124);
+    clear: both;
+    text-align: center;
+    padding: 5px;
 }
